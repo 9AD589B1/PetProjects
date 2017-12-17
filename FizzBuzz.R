@@ -6,9 +6,11 @@
 my_vector <- c() #initialize vector
 
 for (i in 1:100) {
-  if (i %% 3 == 0 & i %% 5 == 0) #if number is multiple of 3 and 5
+  if (i %% 3 == 0 & i %% 5 == 0)
+    #if number is multiple of 3 and 5
     my_vector[i] <- "FizzBuzz"
-  else if (i %% 3 == 0) #if number is multiple of 3
+  else if (i %% 3 == 0)
+    #if number is multiple of 3
     my_vector[i] <- "Fizz"
   else if (i %% 5 == 0)
     my_vector[i] <- "Buzz" #if number is multiple of 5
